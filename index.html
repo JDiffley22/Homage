@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(Homage) Bath Cats and Dogs Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&family=Poppins:ital,wght@0,200;0,400;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="toggle-icon">
+        <label for="toggler" class="toggle-button"></label>
+        <input type="checkbox" id="toggler" class="toggle-input">
+        <nav class="toggled-content nav-bar">
+            <ul id="open-list">
+            <li class="nav-row row-blue">About Us</li>
+            <li class="nav-row row-blue">How Can You Help</li>
+            <li class="nav-row row-blue">Pet Advice</li>
+            <div class="nav-row nav-icon" id="icon-green">
+                <div>
+                    <img src="icons/house.png">
+                </div>
+            </div>
+            <li class="nav-row row-blue">Adopt</li>
+            <div class="nav-row nav-icon" id="icon-orange">
+                <div>
+                    <img src="icons/heart.png">
+                </div>
+            </div>
+            <li class="nav-row row-green">Donate</li>
+            <div class="nav-row nav-icon" id="icon-blue">
+                <div>
+                    <img src="icons/padlock.png">
+                </div>
+            </div>
+            <li class="nav-row row-orange">Account Login</li>
+            <li class="nav-row row-blue"><img src="icons/noun-trolley-5405978.png" class="shopping-trolley"></li>
+            <div class="social-container" id="social-media">
+                <img class="social-icon menu-social" src="social/twitter.png">
+                <img class="social-icon menu-social" src="social/facebook.png">
+                <img class="social-icon menu-social" src="social/instagram.png">
+            </div>
+            </ul>
+        </nav>
+    </div>
+
+    <section>
+        <div class="header-section">
+        <div class ="top-tint">
+        <div id="logo"></div>    
+        <div class="header-content">
+            <img src="icons/logo.png" id="logo">
+                <h1>Rescue is our favourite breed</h1>
+                <p">Our cats and dogs are wonderful characters all hoping for a second chance of a loving forever home</p>
+                <button class="main-button green-btn" id="title-button">See our animals looking to be adopted</button>
+            </div>
+        </div>
+        </div>
+       </div> 
+    </section>
+    
+    <section class="second-section">
+        <div class="card cat image-tint">
+            <div class="card-left">
+            <h2 class="card-title">Protect our future</h2>
+            <p class="hidden show" id="sml-text">A monthly donation helps us prepare for the unexpected</p>
+            <button class="main-button orange-btn">Donate</button>
+            </div>
+        </div>
+        <!-- <div class="card wag-walk">
+            <h2>Wag Walk</h2>
+            <button class="main-button orange-btn">Grab your lead!</button>
+        </div> -->
+        <div class="card adopt-pet image-tint">
+            <div class="card-bottom">
+            <h2 class="card-title">Adopting a pet</h2>
+            <p class="hidden show" id="sml-text">How, and why, to adopt a cat or dog from Bath cats and dogs home</p>
+            <button class="main-button green-btn">Read More</button>
+            </div>
+        </div>
+        <div class="card pet-advice image-tint">
+            <div class="card-bottom">
+            <h2 class="card-title">Pet Advice</h2>
+            <p class="hidden show" id="sml-text">Pet and stray animal advice and useful contacts</p>
+            <button class="main-button blue-btn">Find out more</button>
+            </div>
+        </div>
+        <div class="card volunteer image-tint">
+            <div class="card-bottom">
+            <h2 class="card-title">Volunteer for us</h2>
+            <p class="hidden show" id="sml-text">Opportunities to give our time, whether you can give a little or a lot</p>
+            <button class="main-button blue-btn">Get Involved</button>
+            </div>
+        </div>
+    </section>
+  
+    <section class="card-row-section">
+        <div>
+            <div class="carousel-header">
+            <h3>Can you offer us a home?</h3>
+            </div>
+            <div class="row-button">
+            <button class="main-button catDog-btn">Cats</button><button class="main-button catDog-btn">Dogs</button><button class="main-button green-btn" id="none">How to</button>
+            </div>
+
+            <div class="carousel">
+                <div class="slide" id="baloo"><p>baloo</p></div>
+                <div class="slide" id="belle"><p>belle</p></div>
+                <div class="slide" id="aries"><p>aries</p></div>
+                <div class="slide" id="belinda"><p>belinda</p></div>
+                <div class="slide" id="benji"><p>benji</p></div>
+                <div class="slide" id="bob"><p>bob</p></div>
+                <div class="slide" id="artemis"><p>Artemis</p></div>
+            </div>
+
+            <div class="row-button" id="pad-top">
+            <button class="main-button green-btn" >How to</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="third-section">
+        <div class="card blog image-tint">
+            <div class="card-bottom">
+            <h3 class="card-title">Blog</h3>
+            <p class="hidden show" id="sml-text">Check in here for the latest animal and welfare news from the Home, plus expert advice and what's on.</p>
+            <button class="main-button blue-btn">What's the latest news</button>
+            </div>
+        </div>
+        <div class="card marley-cat image-tint">
+            <div class="card-bottom">
+            <h3 class="card-title" id="sml-heading">Marley needed complex medical care</h3>
+            <p class="hidden show marleyPad" id="sml-text">Diagnosed with diabetes and pancreatitis, and dangerously thin from diarrhoea, it was clear that Marley's recovery with us would be a long one.</p>
+            <button class="main-button blue-btn">Read our animals' stories</button>
+            </div>
+        </div>
+        <div class="card care-advice image-tint">
+            <div class="card-bottom">
+            <h3 class="card-title">Pet care advice</h3>
+            <p class="hidden show" id="sml-text">Behaviour, training and welfare tips from our experts</p>
+            <button class="main-button blue-btn">Read more</button>
+            </div>
+        </div>
+    </section> 
+    <section class="news-section"> 
+        <div class="card" id="news-card">
+            <h3 id="newstitle">Keep in touch with our news</h3>
+            <p>Want to keep up to date with our charity work? then sign up to our e-news</p>
+            <button class="main-button green-btn">Sign up here</button>
+        </div>
+        <div class="box">
+            <div class="bar-left"></div>
+            <p class="partnershiptext">In Partnership with...</p>
+            <div class="bar-right"></div>
+        </div>
+        <div class="card" id="partner-card">
+
+                <div class="partner-container">
+                    <div class="partner-icon vet-logo"></div>
+                    <div class="partner-icon petplan-logo"></div>
+                    <div class="partner-icon petfoundation-logo"></div>
+                </div>
+        </div>
+        <div id="partner-button">
+        <button class="main-button blue-btn" id="viewall">View All</button>
+        </div>
+    </section> 
+
+    <footer>
+    <div class="footer-section">
+        <div class="footer-upper">
+                <div class="regulators">
+                        <img class="regulators-icon" id="rspca" src="images/rspca.png">    
+                        <img class="regulators-icon" src="images/adch.png">
+                        <img class="regulators-icon" src="images/fundraisingRegulator.png">
+                </div>
+                <div class="social-container" id="social-media">
+                    <img class="social-icon" src="social/twitter.png">
+                    <img class="social-icon" src="social/facebook.png">
+                    <img class="social-icon" src="social/instagram.png">
+                    <img class="social-icon" src="social/linkedin.png">
+                    <img class="social-icon" src="social/youtube.png">
+                </div>
+        </div>
+        <div class="footer-lower">
+        <div class="address">   
+        <p><strong>RSPCA Bath and District Branch</strong>, The Avenue, Claverton Down, Bath, BA2 7AZ
+        <br>Registered in England No: 205594</p>
+        </div> 
+        <div class="footer-details">
+        Privacy Policy</a>
+        / About Us</a>
+        / Jobs</a>
+        / Contact</a>
+        </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
